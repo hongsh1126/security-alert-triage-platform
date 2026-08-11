@@ -1,0 +1,7 @@
+{"instruction":"Triage this security alert","input":"Repeated failed SSH logins from 198.51.100.23 followed by a successful root login","output":"HIGH|credential_access|Escalate and isolate the host; likely brute-force compromise."}
+{"instruction":"Triage this security alert","input":"Single failed login from an employee laptop during business hours","output":"LOW|benign|Close after identity verification; insufficient evidence of attack."}
+{"instruction":"Triage this security alert","input":"PowerShell downloaded an executable from a newly registered domain and disabled Defender","output":"CRITICAL|execution|Isolate immediately and start incident response."}
+{"instruction":"Triage this security alert","input":"DNS query volume increased 5 percent during a scheduled software deployment","output":"LOW|benign|Monitor; change is consistent with approved activity."}
+{"instruction":"Triage this security alert","input":"Endpoint uploaded 900 MB to an unknown external host at 03:10","output":"HIGH|exfiltration|Block destination, preserve evidence, and investigate account and host."}
+{"instruction":"Triage this security alert","input":"Service account accessed a new database after an approved role migration","output":"MEDIUM|policy_change|Verify the change ticket and monitor subsequent access."}
+
