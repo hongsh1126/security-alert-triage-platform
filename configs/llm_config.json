@@ -1,0 +1,15 @@
+{
+  "model_name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "train_file": "data/train.jsonl",
+  "output_dir": "artifacts/lora_adapter",
+  "max_length": 512,
+  "epochs": 1,
+  "learning_rate": 0.0002,
+  "batch_size": 2,
+  "gradient_accumulation_steps": 8,
+  "use_4bit": true,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05
+}
+
