@@ -1,0 +1,8 @@
+-r requirements.txt
+torch==2.8.0
+transformers==4.55.2
+datasets==4.0.0
+peft==0.17.0
+accelerate==1.10.0
+bitsandbytes==0.47.0; platform_system == "Linux"
+
